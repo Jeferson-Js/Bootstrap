@@ -1,16 +1,30 @@
 .texto-menor {
-    font-size: 13px;
+  font-size: 13px;
 }
 
 .divs-facilidades {
-    width: 325px;
+  width: 325px;
 }
 
 footer {
-    background-color: gray;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
 
+.btn {
+    background-color: purple;
+    color: #fff;
+    outline: none;
+    transition: all .4s linear;
+}
 
+.btn:hover {
+    background-color: plum;
+}
+
+.price {
+    font-weight: bold;
 }
